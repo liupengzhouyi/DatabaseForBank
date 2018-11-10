@@ -26,5 +26,23 @@
 
 ## 然后，我们重新启动电脑
 
+打开软件
+
+![](/assets/import6.png)
+
+添加数据库
+
+![](/assets/import7.png)![](/assets/import8.png)用户为本机，
+
+然后是测试连接
+
+最后连接成功！
+
+
+
+
+
+
+
 
 
