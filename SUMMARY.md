@@ -16,6 +16,8 @@
   * 客户银行卡表
   * [银行卡交易信息表（多表分割）](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-qia-jiao-yi-xin-xi-biao-ff08-duo-biao-fen-ge-ff09.md)
   * [需要依赖的临时表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/xu-yao-yi-lai-de-lin-shi-biao.md)
+    * [名字表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/xu-yao-yi-lai-de-lin-shi-biao/ming-zi-biao.md)
+    * [姓氏表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/xu-yao-yi-lai-de-lin-shi-biao/xing-shi-biao.md)
 * [附录：工具的使用](fu-lu-ff1a-gong-ju-de-shi-yong.md)
   * [使用DataGrip连接SQLServer](fu-lu-ff1a-gong-ju-de-shi-yong/shi-yong-datagrip-lian-jie-sqlserver.md)
 
