@@ -5,6 +5,7 @@
   * [第一节：银行的需求](di-yi-zhang-ff1a-wo-men-de-xu-qiu-fen-xi/di-yi-jie-ff1a-yin-xing-de-xu-qiu.md)
   * [第二节：用户的活动](di-yi-zhang-ff1a-wo-men-de-xu-qiu-fen-xi/di-er-jie-ff1a-yong-hu-de-huo-dong.md)
   * [第三节：银行提供的业务](di-yi-zhang-ff1a-wo-men-de-xu-qiu-fen-xi/di-san-jie-ff1a-yin-xing-ti-gong-de-ye-wu.md)
+  * [第四节：创建数据库](di-yi-zhang-ff1a-wo-men-de-xu-qiu-fen-xi/di-si-jie-ff1a-chuang-jian-shu-ju-ku.md)
 * [第二章：数据表的设计](di-er-zhang-ff1a-shu-ju-biao-de-she-ji.md)
   * [业务逻辑图](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/ye-wu-luo-ji-tu.md)
   * [银行网点信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-wang-dian-xin-xi-biao.md)
