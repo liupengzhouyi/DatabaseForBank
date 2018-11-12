@@ -12,7 +12,6 @@
   * [街道信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/jie-dao-xin-xi-biao.md)
   * [区县信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/qu-xian-xin-xi-biao.md)
   * [银行客户信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-ke-hu-xin-xi-biao.md)
-    * [如何批量生成客户信息](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-ke-hu-xin-xi-biao/ru-he-pi-liang-sheng-cheng-ke-hu-xin-xi.md)
   * [银行卡账户信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-qia-zhang-hu-xin-xi-biao.md)
   * 客户银行卡表
   * [银行卡交易信息表（多表分割）](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-qia-jiao-yi-xin-xi-biao-ff08-duo-biao-fen-ge-ff09.md)
