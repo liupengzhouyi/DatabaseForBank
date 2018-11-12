@@ -10,15 +10,16 @@
   * [业务逻辑图](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/ye-wu-luo-ji-tu.md)
   * [银行网点信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-wang-dian-xin-xi-biao.md)
   * [街道信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/jie-dao-xin-xi-biao.md)
-  * 区县信息表
-  * 银行客户信息表
-  * 银行卡账户信息表
+  * [区县信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/qu-xian-xin-xi-biao.md)
+  * [银行客户信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-ke-hu-xin-xi-biao.md)
+  * [银行卡账户信息表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-qia-zhang-hu-xin-xi-biao.md)
   * 客户银行卡表
   * [银行卡交易信息表（多表分割）](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/yin-xing-qia-jiao-yi-xin-xi-biao-ff08-duo-biao-fen-ge-ff09.md)
   * [需要依赖的临时表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/xu-yao-yi-lai-de-lin-shi-biao.md)
-    * [名字表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/xu-yao-yi-lai-de-lin-shi-biao/ming-zi-biao.md)
     * [姓氏表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/xu-yao-yi-lai-de-lin-shi-biao/xing-shi-biao.md)
+    * [名字表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/xu-yao-yi-lai-de-lin-shi-biao/ming-zi-biao.md)
     * [为生成身份证号码前6的表](di-er-zhang-ff1a-shu-ju-biao-de-she-ji/xu-yao-yi-lai-de-lin-shi-biao/wei-sheng-cheng-shen-fen-zheng-hao-ma-qian-6-de-biao.md)
+* [第三章：数据添加](di-san-zhang-ff1a-shu-ju-tian-jia.md)
 * [附录：工具的使用](fu-lu-ff1a-gong-ju-de-shi-yong.md)
   * [使用DataGrip连接SQLServer](fu-lu-ff1a-gong-ju-de-shi-yong/shi-yong-datagrip-lian-jie-sqlserver.md)
   * [项目计划书](fu-lu-ff1a-gong-ju-de-shi-yong/xiang-mu-ji-hua-shu.md)
