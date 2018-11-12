@@ -325,7 +325,6 @@ INSERT INTO tb_temp_surname_table (surname) VALUES ('胥');
 INSERT INTO tb_temp_surname_table (surname) VALUES ('保');
 INSERT INTO tb_temp_surname_table (surname) VALUES ('和');
 INSERT INTO tb_temp_surname_table (surname) VALUES ('蔺');
-
 ```
 
 
