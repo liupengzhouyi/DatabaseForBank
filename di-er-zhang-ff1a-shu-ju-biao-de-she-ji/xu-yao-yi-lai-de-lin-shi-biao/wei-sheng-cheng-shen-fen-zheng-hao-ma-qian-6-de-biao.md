@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | number | int | 是 | 是 | 编号 |
 | address\_number | varchar\(7\) | 否 | 否 | 前6位编号 |
-| address\_name | VARCHAR\(20\) |  |  | 编号所代表的地址 |
+| address\_name | VARCHAR\(20\) | 否 | 否 | 编号所代表的地址 |
 
 ## 创建数据表的代码
 
