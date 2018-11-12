@@ -854,8 +854,6 @@ INSERT INTO tb_temp_name_table(name) VALUES ('醉卉');
 INSERT INTO tb_temp_name_table(name) VALUES ('天菱');
 INSERT INTO tb_temp_name_table(name) VALUES ('青雪');
 INSERT INTO tb_temp_name_table(name) VALUES ('雅旋');
-
-
 ```
 
 
