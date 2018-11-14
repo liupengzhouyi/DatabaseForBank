@@ -3,7 +3,7 @@
 ## 名称
 
 ```
-proc_randDate
+proc_2randDate
 ```
 
 ## 参数
@@ -79,6 +79,22 @@ CREATE PROCEDURE proc_randDate
     SET @date = @newCharYear + @newCharMonth + @newCharDay
   END
   SELECT @date
+```
+
+## 测试代码
+
+```
+-- 测试代码
+DECLARE @yearI INT
+DECLARE @yearII INT
+DECLARE @monthI INT
+DECLARE @monthII INT
+DECLARE @date VARCHAR(9)
+  SET @yearI = 1960
+  SET @yearII = 2000
+  SET @monthI = 2
+  SET @monthII = 6
+  EXEC proc_randDate @yearI, @monthI, @yearII, @monthII, @date
 ```
 
 
