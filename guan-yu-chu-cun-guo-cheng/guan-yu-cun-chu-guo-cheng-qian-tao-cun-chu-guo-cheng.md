@@ -63,5 +63,8 @@ DECLARE @num INT
 EXEC proc_numberAddNumber03 @num
 ```
 
+### 这个储存过程是为了计算俩个随机数的和
+谢谢！
 
+再次感谢丁雨老师
 
