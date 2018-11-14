@@ -35,6 +35,8 @@
   * 一个随机生成三位数的存储过程
   * 一个计算校验码的存储过程
   * 一个添加用户信息的存储过程
+  * 一个判断是否有这个身份证号码的存储过程
+  * 一个判断是否有这个电话号码的存储过程
 * [附录：工具的使用](fu-lu-ff1a-gong-ju-de-shi-yong.md)
   * [使用DataGrip连接SQLServer](fu-lu-ff1a-gong-ju-de-shi-yong/shi-yong-datagrip-lian-jie-sqlserver.md)
   * [项目计划书](fu-lu-ff1a-gong-ju-de-shi-yong/xiang-mu-ji-hua-shu.md)
