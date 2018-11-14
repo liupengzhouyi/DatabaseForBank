@@ -20,7 +20,7 @@ proc_hasThisUserId
 
 ```
 /**
-创建一个产生随机的电话号码存储过程
+创建一个判断又是存在某一个用户身份证号码存储过程
 存储过程名称：proc_hasThisUserId
 参数：
   @userId VARCHAR(20)
