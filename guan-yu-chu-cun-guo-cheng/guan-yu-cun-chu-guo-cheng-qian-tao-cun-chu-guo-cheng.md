@@ -33,7 +33,7 @@ EXEC prc_t1_201;
 
 ### 那么问题来了：如何为把值带出被嵌套的储存过程
 
-### 这是设我们的答案
+### 这是我们的答案
 
 ```
 CREATE PROCEDURE proc_randNumber01
