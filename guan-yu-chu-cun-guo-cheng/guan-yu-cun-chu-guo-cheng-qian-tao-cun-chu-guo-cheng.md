@@ -4,8 +4,64 @@
 
 ## 我的测试代码如下
 
+### 查看存储过程的嵌套是否在运行
+```
+CREATE PROCEDURE prc_t101
+  as
+BEGIN
+  SELECT '123456'
+  print '123456'
+end;
 
+exec prc_t101;
+
+create procedure prc_t1_201
+  as
+BEGIN
+  exec prc_t101
+  SELECT '1122334477'
+  print '1122556'
+end;
+
+EXEC prc_t1_201;
 ```
 
+### 我们确定了储存过程的嵌套的过程是可以执行的
+### 只是我无法吧值带出来
+### 那么问题来了：如何为把值带出被嵌套的储存过程
+### 这是设我们的答案
+
+
 ```
+CREATE PROCEDURE proc_randNumber01
+  @number INT OUTPUT
+  AS
+BEGIN
+  SET @number = RAND() * 100
+  print @number
+END
+SELECT @number;
+
+DECLARE @num INT
+EXEC proc_randNumber01 @num
+
+CREATE PROCEDURE proc_numberAddNumber03
+  @number0 INT OUTPUT
+  AS
+BEGIN
+  DECLARE @numberI INT
+  DECLARE @numberII INT
+  EXEC proc_randNumber01 @numberI OUT
+  print @numberI
+  EXEC proc_randNumber01 @numberII OUT
+  PRINT @numberII
+  SET @number0 = @numberI + @numberII
+END
+SELECT @number0;
+
+DECLARE @num INT
+EXEC proc_numberAddNumber03 @num
+```
+
+
 
