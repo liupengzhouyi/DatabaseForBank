@@ -3,20 +3,23 @@
 ## 名称
 
 ```
-proc_2randDate
+proc_randDate
 ```
 
 ## 参数
 
 | 参数名称 | 数据类型 | 描述 |
 | :--- | :--- | :--- |
-|  |  |  |
+| @yearI | INT | 年份 |
+| @monthI | INT | 月数 |
+| @yearI | INT | 年份 |
+| @monthII | INT | 月数 |
 
 ## 返回值
 
 | 返回值名称 | 数据类型 | 描述 |
 | :--- | :--- | :--- |
-|  |  |  |
+| @date | VARCHAR\(9\) | 年月日 |
 
 ## 代码
 
