@@ -45,8 +45,13 @@ END
 SELECT @name
 ```
 
+### 测试代码
 
-
+```
+-- 测试数据代码
+DECLARE @name VARCHAR(20)
+EXEC proc_randUserName @name;
+```
 
 
 
