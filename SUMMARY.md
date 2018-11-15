@@ -46,6 +46,7 @@
   * [一个存储过程查看该客户已经在我行办理多少张银行卡](chuang-jian-chu-cun-guo-cheng/yi-ge-cun-chu-guo-cheng-cha-kan-gai-ke-hu-yi-jing-zai-wo-xing-ban-li-duo-shao-zhang-yin-xing-qia.md)
   * [一个存储过程获取当前地区的某种卡片已经产生了多少张](chuang-jian-chu-cun-guo-cheng/yi-ge-cun-chu-guo-cheng-huo-qu-dang-qian-di-qu-de-mou-zhong-qia-pian-yi-jing-chan-sheng-le-duo-shao-zhang.md)
   * [模板](chuang-jian-chu-cun-guo-cheng/mo-ban.md)
+  * [将数字转化为varchar（2）类型的数据](chuang-jian-chu-cun-guo-cheng/jiang-shu-zi-zhuan-hua-wei-varchar-2-ff09-lei-xing-de-shu-ju.md)
 * [附录：工具的使用](fu-lu-ff1a-gong-ju-de-shi-yong.md)
   * [使用DataGrip连接SQLServer](fu-lu-ff1a-gong-ju-de-shi-yong/shi-yong-datagrip-lian-jie-sqlserver.md)
   * [项目计划书](fu-lu-ff1a-gong-ju-de-shi-yong/xiang-mu-ji-hua-shu.md)
