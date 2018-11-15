@@ -53,11 +53,9 @@
   * [一个存储过程通过你的身份证号码，获取一个大于你18岁的日期](chuang-jian-chu-cun-guo-cheng/yi-ge-cun-chu-guo-cheng-tong-guo-ni-de-shen-fen-zheng-hao-ma-ff0c-huo-qu-yi-ge-da-yu-ni-18-sui-de-ri-qi.md)
   * [模板](chuang-jian-chu-cun-guo-cheng/mo-ban.md)
   * [创建一个存储过程，添加一组（三条）数据](chuang-jian-chu-cun-guo-cheng/chuang-jian-yi-ge-cun-chu-guo-cheng-ff0c-tian-jia-yi-zu-ff08-san-tiao-ff09-shu-ju.md)
+  * [一个存储过程判断某张银行卡是否可以使用](chuang-jian-chu-cun-guo-cheng/yi-ge-cun-chu-guo-cheng-pan-duan-mou-zhang-yin-xing-qia-shi-fou-ke-yi-shi-yong.md)
 * [附录：工具的使用](fu-lu-ff1a-gong-ju-de-shi-yong.md)
   * [使用DataGrip连接SQLServer](fu-lu-ff1a-gong-ju-de-shi-yong/shi-yong-datagrip-lian-jie-sqlserver.md)
   * [项目计划书](fu-lu-ff1a-gong-ju-de-shi-yong/xiang-mu-ji-hua-shu.md)
   * [编程规范](fu-lu-ff1a-gong-ju-de-shi-yong/bian-cheng-gui-fan.md)
- 
-
-
 
