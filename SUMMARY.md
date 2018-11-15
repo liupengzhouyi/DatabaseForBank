@@ -48,6 +48,7 @@
   * [模板](chuang-jian-chu-cun-guo-cheng/mo-ban.md)
   * [将数字转化为varchar（2）类型的数据](chuang-jian-chu-cun-guo-cheng/jiang-shu-zi-zhuan-hua-wei-varchar-2-ff09-lei-xing-de-shu-ju.md)
   * [将数字转化为varchar\(5\)类型的数据](chuang-jian-chu-cun-guo-cheng/jiang-shu-zi-zhuan-hua-wei-varchar-5-lei-xing-de-shu-ju.md)
+  * [创建一个存储过程每一次都产生一个银行卡的卡号](chuang-jian-chu-cun-guo-cheng/chuang-jian-yi-ge-cun-chu-guo-cheng-mei-yi-ci-du-chan-sheng-yi-ge-yin-xing-qia-de-qia-hao.md)
 * [附录：工具的使用](fu-lu-ff1a-gong-ju-de-shi-yong.md)
   * [使用DataGrip连接SQLServer](fu-lu-ff1a-gong-ju-de-shi-yong/shi-yong-datagrip-lian-jie-sqlserver.md)
   * [项目计划书](fu-lu-ff1a-gong-ju-de-shi-yong/xiang-mu-ji-hua-shu.md)
