@@ -49,6 +49,8 @@
   * [将数字转化为varchar（2）类型的数据](chuang-jian-chu-cun-guo-cheng/jiang-shu-zi-zhuan-hua-wei-varchar-2-ff09-lei-xing-de-shu-ju.md)
   * [将数字转化为varchar\(5\)类型的数据](chuang-jian-chu-cun-guo-cheng/jiang-shu-zi-zhuan-hua-wei-varchar-5-lei-xing-de-shu-ju.md)
   * [创建一个存储过程每一次都产生一个银行卡的卡号](chuang-jian-chu-cun-guo-cheng/chuang-jian-yi-ge-cun-chu-guo-cheng-mei-yi-ci-du-chan-sheng-yi-ge-yin-xing-qia-de-qia-hao.md)
+  * [一个存储过程随机获取一个用户](chuang-jian-chu-cun-guo-cheng/yi-ge-cun-chu-guo-cheng-sui-ji-huo-qu-yi-ge-yong-hu.md)
+  * [一个存储过程通过你的身份证号码，获取一个大于你18岁的日期](chuang-jian-chu-cun-guo-cheng/yi-ge-cun-chu-guo-cheng-tong-guo-ni-de-shen-fen-zheng-hao-ma-ff0c-huo-qu-yi-ge-da-yu-ni-18-sui-de-ri-qi.md)
   * [模板](chuang-jian-chu-cun-guo-cheng/mo-ban.md)
 * [附录：工具的使用](fu-lu-ff1a-gong-ju-de-shi-yong.md)
   * [使用DataGrip连接SQLServer](fu-lu-ff1a-gong-ju-de-shi-yong/shi-yong-datagrip-lian-jie-sqlserver.md)
