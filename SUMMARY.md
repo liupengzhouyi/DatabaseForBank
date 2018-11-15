@@ -40,6 +40,7 @@
   * [一个判断一张银行卡的卡号是否已经存在的存储过程](chuang-jian-chu-cun-guo-cheng/yi-ge-pan-duan-yi-zhang-yin-xing-qia-de-qia-hao-shi-fou-yi-jing-cun-zai-de-cun-chu-guo-cheng.md)
   * [一个产生随机三位数的存储过程](chuang-jian-chu-cun-guo-cheng/yi-ge-chan-sheng-sui-ji-san-wei-shu-de-cun-chu-guo-cheng.md)
   * [一个随机获取银行卡类型的存储过程](chuang-jian-chu-cun-guo-cheng/yi-ge-sui-ji-huo-qu-yin-xing-qia-lei-xing-de-cun-chu-guo-cheng.md)
+  * [创建一个储存过程产生身份证地区编号](chuang-jian-chu-cun-guo-cheng/chuang-jian-yi-ge-chu-cun-guo-cheng-chan-sheng-shen-fen-zheng-di-qu-bian-hao.md)
 * [附录：工具的使用](fu-lu-ff1a-gong-ju-de-shi-yong.md)
   * [使用DataGrip连接SQLServer](fu-lu-ff1a-gong-ju-de-shi-yong/shi-yong-datagrip-lian-jie-sqlserver.md)
   * [项目计划书](fu-lu-ff1a-gong-ju-de-shi-yong/xiang-mu-ji-hua-shu.md)
