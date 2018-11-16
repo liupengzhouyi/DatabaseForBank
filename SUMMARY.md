@@ -56,7 +56,7 @@
   * [一个存储过程判断某张银行卡是否可以使用](chuang-jian-chu-cun-guo-cheng/yi-ge-cun-chu-guo-cheng-pan-duan-mou-zhang-yin-xing-qia-shi-fou-ke-yi-shi-yong.md)
 * 关于事务
   * [什么是事物](shi-yao-shi-shi-wu.md)
-  * 事物的三种标志【关键词】
+  * [事物的三种标志【关键词】](shi-wu-de-san-zhong-biao-zhi-3010-guan-jian-ci-3011.md)
   * 一个完整的事物
 * 创建事务
   * 事务的规划
