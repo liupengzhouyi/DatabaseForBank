@@ -57,7 +57,7 @@
 * 关于事务
   * [什么是事物](shi-yao-shi-shi-wu.md)
   * [事物的三种标志【关键词】](shi-wu-de-san-zhong-biao-zhi-3010-guan-jian-ci-3011.md)
-  * 一个完整的事物
+  * [一个完整的事物](yi-ge-wan-zheng-de-shi-wu.md)
 * 创建事务
   * 事务的规划
 * 关于锁
