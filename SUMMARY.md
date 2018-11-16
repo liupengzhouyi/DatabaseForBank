@@ -55,7 +55,7 @@
   * [创建一个存储过程，添加一组（三条）数据](chuang-jian-chu-cun-guo-cheng/chuang-jian-yi-ge-cun-chu-guo-cheng-ff0c-tian-jia-yi-zu-ff08-san-tiao-ff09-shu-ju.md)
   * [一个存储过程判断某张银行卡是否可以使用](chuang-jian-chu-cun-guo-cheng/yi-ge-cun-chu-guo-cheng-pan-duan-mou-zhang-yin-xing-qia-shi-fou-ke-yi-shi-yong.md)
 * 关于事务
-  * 什么是事物
+  * [什么是事物](shi-yao-shi-shi-wu.md)
   * 事物的三种标志【关键词】
   * 一个完整的事物
 * 创建事务
