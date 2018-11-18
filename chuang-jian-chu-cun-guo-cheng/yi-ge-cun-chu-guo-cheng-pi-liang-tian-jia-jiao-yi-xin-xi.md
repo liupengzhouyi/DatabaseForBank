@@ -58,7 +58,10 @@ CREATE PROCEDURE proc_addDealInformation
 ## 测试代码
 
 ```
-
+--还会轰轰烈烈的造数据
+DECLARE @count INT
+SET @count = 10000
+EXEC proc_addDealInformation @count;
 ```
 
 
