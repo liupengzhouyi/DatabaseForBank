@@ -57,6 +57,7 @@
   * [一个自动化实现转账的存储过程](chuang-jian-chu-cun-guo-cheng/yi-ge-zi-dong-hua-shi-xian-zhuan-zhang-de-cun-chu-guo-cheng.md)
   * [一个自动化实现存钱的存储过程](chuang-jian-chu-cun-guo-cheng/yi-ge-zi-dong-hua-shi-xian-cun-qian-de-cun-chu-guo-cheng.md)
   * [一个自动化实现取钱的存储过程](chuang-jian-chu-cun-guo-cheng/yi-ge-zi-dong-hua-shi-xian-qu-qian-de-cun-chu-guo-cheng.md)
+  * [一个存储过程批量添加交易信息](chuang-jian-chu-cun-guo-cheng/yi-ge-cun-chu-guo-cheng-pi-liang-tian-jia-jiao-yi-xin-xi.md)
 * [关于事务](guan-yu-shi-wu.md)
   * [什么是事物](shi-yao-shi-shi-wu.md)
   * [事物的三种标志【关键词】](shi-wu-de-san-zhong-biao-zhi-3010-guan-jian-ci-3011.md)
