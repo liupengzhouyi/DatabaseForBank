@@ -3,108 +3,81 @@
 # 存储过程名称
 
 ```
-proc_saveMoneyToOtherCrad
+proc_randDateToWithdrawal
 ```
 
 ## 参数
 
 | 参数名称 | 数据类型 | 描述 |
 | :--- | :--- | :--- |
-|  |  |  |
+| 无 | 无 | 无 |
 
 ## 返回值
 
 | 返回值名称 | 数据类型 | 描述 |
 | :--- | :--- | :--- |
-|  |  |  |
+| 无 | 无 | 无 |
 
 ## 代码
 
 ```
--- 创建一个存储过程
--- 转账
-CREATE PROCEDURE proc_saveMoneyToOtherCrad
-  @cradNumberI VARCHAR(20) ,
-  @password VARCHAR(7) ,
-  @cradNumberII VARCHAR(20) ,
-  @money DECIMAL (8, 4) ,
-  -- 如何操作
-  -- 1 --> 今日操作
-  -- 0 --> 随机日期操作
-  @kindII INT
+-- 创建一个事务，实现一次转账
+CREATE PROCEDURE proc_randDateToWithdrawal
   AS
   BEGIN
-    DECLARE @cradIKey INT
-    DECLARE @cradIIKey INT
-    DECLARE @password_key INT
-    DECLARE @money_key INT
-    -- 判断是否有这俩张卡片
-    EXEC proc_thisCradCanUse @cradNumberI, @cradIkey OUT
-    IF @cradIkey = 1
+    BEGIN TRANSACTION
+    DECLARE @cradNumberI VARCHAR(20)
+    DECLARE @cradNumberII VARCHAR(20)
+    DECLARE @password VARCHAR(7)
+    DECLARE @money DECIMAL (8, 4)
+    DECLARE @moneyAI DECIMAL (8, 4)
+    DECLARE @moneyAII DECIMAL (8, 4)
+    DECLARE @moneyBI DECIMAL (8, 4)
+    DECLARE @moneyBII DECIMAL (8, 4)
+    -- 赋值
+    EXEC proc_getACradNumberForTable @cradNumberI OUT
+    EXEC proc_getACradNumberForTable @cradNumberII OUT
+    SET @money = CAST((RAND() * 3 ) + 1 AS INT) * 100
+    SET @password = '888888'
+    -- 获取转帐前的银行卡的金额
+    EXEC proc_newMoneyInCrad @cradNumberI, @moneyAI OUT
+    EXEC proc_newMoneyInCrad @cradNumberII, @moneyBI OUT
+    -- 随机日期转账
+    EXEC proc_saveMoneyToOtherCrad @cradNumberI, @password, @cradNumberII, @money, 0
+    -- 获取转帐后的银行卡的金额
+    EXEC proc_newMoneyInCrad @cradNumberI, @moneyAII OUT
+    EXEC proc_newMoneyInCrad @cradNumberII, @moneyBII OUT
+    DECLARE @numberI INT
+    DECLARE @numberII INT
+    DECLARE @kindI INT
+    DECLARE @kindII INT
+    SET @kindI = 1
+    SET @kindII = 0
+    EXEC proc_moneyIsRight @money, @moneyAI, @moneyAII, @kindI, @numberI OUT
+    EXEC proc_moneyIsRight @money, @moneyBI, @moneyBII, @kindII, @numberII OUT
+    -- 判断事务的执行情况
+    IF @numberI = 1 AND @numberII = 1
       BEGIN
-
-        -- 验证第二张卡片
-        EXEC proc_thisCradCanUse @cradNumberII, @cradIIkey OUT
-        IF @cradIIkey = 1
+        -- 没有错误
+        IF @cradNumberI = @cradNumberII
           BEGIN
-            -- 该卡片可以使用
-            -- 校验密码
-            EXEC proc_passwordIsRight @cradNumberI, @password, @password_key OUT
-            IF @password_key = 1
-              BEGIN
-                -- 可以使用
-                -- 查看是否有足够的钱 被取出来
-                EXEC proc_canWithdrawal @cradNumberI, @money, @money_key OUT
-                IF @money_key = 1
-                  BEGIN
-                    -- 有足够的钱可以取出来
-                    -- 添加交易信息
-                    IF @kindII = 1
-                      BEGIN
-                        EXEC proc_insertTransferInformation @cradNumberI, @cradNumberII, @money, 2
-                      END
-                    ELSE
-                      BEGIN
-                        EXEC proc_insertTransferInformation @cradNumberI, @cradNumberII, @money, 1
-                      END
-                    -- 更新余额信息
-                    EXEC proc_trueWithdrawal @cradNumberI, @money
-                    EXEC proc_trueSaveMoney @cradNumberII, @money
-                  END
-                ELSE
-                  BEGIN
-                    PRINT '您的银行卡没有足够的钱可以取出'
-                  END
-              END
-            ELSE
-              BEGIN
-                PRINT '您的密码输入错误！'
-              END
+            -- 发生了错误，转账信息出错
+            -- 回滚事务
+            PRINT '转账的卡号不可以相同'
+            ROLLBACK TRANSACTION
           END
-        ELSE IF @cradIIkey = 2
+        ELSE
           BEGIN
-            PRINT '您要转入的银行卡账号已经注销'
-          END
-        ELSE IF @cradIIkey = 3
-          BEGIN
-            PRINT '您要转入的这张银行卡已经挂失'
-          END
-        ELSE IF @cradIIkey = 0
-          BEGIN
-            PRINT '您要转入的银行卡不存在'
+            -- 可以提交事务了
+            COMMIT TRANSACTION
           END
       END
-    ELSE IF @cradIkey = 2
+    ELSE
       BEGIN
-        PRINT '您的该银行卡账号已经注销'
-      END
-    ELSE IF @cradIkey = 3
-      BEGIN
-        PRINT '您的这张卡片已经挂失'
-      END
-    ELSE IF @cradIkey = 0
-      BEGIN
-        PRINT '您的这张银行卡不存在'
+        -- 发生了错误，转账信息出错
+        -- 回滚事务
+        PRINT '转账失败！表面原因是：原因未知！实际原因：金额核对不正确！'
+        ROLLBACK TRANSACTION
       END
   END
 ```
@@ -112,7 +85,8 @@ CREATE PROCEDURE proc_saveMoneyToOtherCrad
 ## 测试代码
 
 ```
-
+-- 测试代码
+EXEC proc_randDateToWithdrawal;
 ```
 
 
